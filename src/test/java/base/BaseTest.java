@@ -21,7 +21,7 @@ public class BaseTest {
 		
 		prop = ConfigReader.initProperties();
 		driver = DriverFactory.initDriver(prop.getProperty("browserName"));
-		driver.get(prop.getProperty("url"));
+//		driver.get(prop.getProperty("url"));
 		
 	}
 	
