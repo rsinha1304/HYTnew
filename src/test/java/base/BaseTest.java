@@ -12,6 +12,7 @@ import utils.DriverFactory;
 public class BaseTest {
 	
 	
+	//recommended try to save in test file
 	public WebDriver driver;
 	public Properties prop;
 
